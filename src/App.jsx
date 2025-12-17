@@ -23,17 +23,17 @@ function App() {
           <div className="absolute inset-0 z-0">
             <LiquidEther
               colors={["#5227FF", "#FF9FFC", "#B19EEF"]}
-              mouseForce={20}
-              cursorSize={100}
+              mouseForce={14}
+              cursorSize={70}
               isViscous={false}
               viscous={30}
-              iterationsViscous={32}
-              iterationsPoisson={32}
-              resolution={0.5}
+              iterationsViscous={18}
+              iterationsPoisson={18}
+              resolution={0.35}
               isBounce={false}
               autoDemo={true}
               autoSpeed={0.5}
-              autoIntensity={2.2}
+              autoIntensity={1.4}
               takeoverDuration={0.25}
               autoResumeDelay={3000}
               autoRampDuration={0.6}
