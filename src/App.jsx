@@ -8,6 +8,7 @@ import Projects from './sections/Projects'
 import Experience from './sections/Experience'
 import Contact from './sections/Contact'
 import Footer from './components/Footer'
+import LiquidEther from './components/LiquidEther'
 
 
 function App() {
@@ -16,13 +17,38 @@ function App() {
       <div className="bg-black text-white scroll-smooth">
         <Header />
         <Hero />
-        <div className='grid px-22 md:grid-cols-2 md:gap-30 grid-cols-1'>
-          <About />
-          <Skills />
+
+        <div className="relative w-full min-h-[600px] overflow-hidden">
+          {/* Liquid Background */}
+          <div className="absolute inset-0 z-0">
+            <LiquidEther
+              colors={["#5227FF", "#FF9FFC", "#B19EEF"]}
+              mouseForce={20}
+              cursorSize={100}
+              isViscous={false}
+              viscous={30}
+              iterationsViscous={32}
+              iterationsPoisson={32}
+              resolution={0.5}
+              isBounce={false}
+              autoDemo={true}
+              autoSpeed={0.5}
+              autoIntensity={2.2}
+              takeoverDuration={0.25}
+              autoResumeDelay={3000}
+              autoRampDuration={0.6}
+            />
+          </div>
+
+          {/* Content */}
+          <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 px-6 md:px-20 py-20">
+            <About />
+            <Skills />
+          </div>
+          <Projects />
+          <Experience />
+          <Contact />
         </div>
-        <Projects />
-        <Experience />
-        <Contact />
         <Footer />
       </div>
     </>

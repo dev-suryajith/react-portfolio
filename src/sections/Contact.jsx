@@ -5,7 +5,7 @@ import { FaLetterboxd } from "react-icons/fa6";
 
 function Contact() {
     return (
-        <section id="contact" className="relative py-28 px-6 md:px-20 bg-black text-white overflow-hidden">
+        <section id="contact" className="relative py-28 px-6 md:px-20 bg-black/0 text-white overflow-hidden">
 
             {/* Background Glow */}
             <div className="pointer-events-none absolute scale-80 inset-0 flex justify-center">

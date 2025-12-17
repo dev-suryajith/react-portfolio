@@ -7,25 +7,29 @@ function Projects() {
             desc:
                 "A responsive Airbnb-style UI with search bar, property listings, location-based cards, and product detail pages.",
             tech: "HTML, CSS, Bootstrap",
+            link:'https://my-notes-frontend-sand.vercel.app/'
         },
         {
             title: "Resume Builder",
             desc:
                 "A frontend-only game store UI inspired by Steam, featuring categories, product cards, and clean layouts.",
             tech: "HTML, Tailwind CSS",
+            link:'https://resume-builder-frontend-kappa.vercel.app/'
         },
         {
             title: "Freelancer CRM",
             desc:
                 "A React-based CRM dashboard with authentication, project management, payments, and admin panels.",
             tech: "React, Tailwind CSS, REST APIs",
+            link:'#'
         },
-        {
-            title: "Real-Time Chat App",
-            desc:
-                "A private 1-to-1 chat application with real-time messaging using Socket.IO and optimized backend logic.",
-            tech: "React, Node.js, Socket.IO",
-        },
+        // {
+        //     title: "Real-Time Chat App",
+        //     desc:
+        //         "A private 1-to-1 chat application with real-time messaging using Socket.IO and optimized backend logic.",
+        //     tech: "React, Node.js, Socket.IO",
+        //     link:'https://resume-builder-frontend-kappa.vercel.app/'
+        // },
     ]
     return (
         <section
@@ -60,33 +64,14 @@ function Projects() {
 
                         {/* Actions */}
                         <div className="mt-6 flex gap-6">
-                            <a
-                                href="#"
-                                className="
-                  relative text-sm font-medium
-                  text-[#c4737c]
-                  after:absolute after:left-0 after:-bottom-1
-                  after:h-0.5 after:w-0
-                  after:bg-[#c4737c]
-                  after:transition-all after:duration-300
-                  hover:after:w-full
-                "
-                            >
+                            <a href={project.link}
+                                target="_blank"
+                                className=" relative text-sm font-medium text-[#c4737c] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-[#c4737c] after:transition-all after:duration-300 hover:after:w-full " >
                                 Live
                             </a>
 
-                            <a
-                                href="#"
-                                className="
-                  relative text-sm font-medium
-                  text-[#c4737c]
-                  after:absolute after:left-0 after:-bottom-1
-                  after:h-0.5 after:w-0
-                  after:bg-[#c4737c]
-                  after:transition-all after:duration-300
-                  hover:after:w-full
-                "
-                            >
+                            <a href="#"
+                                className="relative text-sm font-medium text-[#c4737c] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-[#c4737c] after:transition-all after:duration-300 hover:after:w-full">
                                 GitHub
                             </a>
                         </div>
