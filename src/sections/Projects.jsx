@@ -8,24 +8,25 @@ function Projects() {
             desc:
                 "A responsive notes application with clean UI and full CRUD functionality using REST APIs.",
             tech: "React, JSON Server, CSS",
-            liveLink: "https://my-notes-frontend-sand.vercel.app/",
-            frontendLink: "https://github.com/dev-suryajith/my-notes-frontend",
-            backendLink: "https://github.com/dev-suryajith/my-notes-backend",
+            liveLink: "https://my-notes-frontend-sand.vercel.app",
+            frontendLink: "https://github.com/dev-suryajith/MyNotes-Frontend",
+            backendLink: "https://github.com/dev-suryajith/MyNotes-Backend",
         },
         {
             title: "Resume Builder",
             desc:
                 "A resume builder application that allows users to generate professional resumes with live preview.",
             tech: "React, Tailwind CSS",
-            liveLink: "https://resume-builder-frontend-kappa.vercel.app/",
-            frontendLink: "https://github.com/dev-suryajith/resume-builder-frontend",
+            liveLink: "https://resume-builder-frontend-kappa.vercel.app",
+            frontendLink: "https://github.com/dev-suryajith/ResumeBuilder-Frontend",
+             backendLink: "https://github.com/dev-suryajith/ResumeBuilder-Backend",
         },
         {
             title: "Freelancer CRM",
             desc:
                 "A role-based CRM dashboard with authentication, project management, payments, and admin panels.",
             tech: "MongoDB, Express.js, React, Node.js",
-            liveLink: "https://freelancer-crm-frontend.vercel.app/",
+            liveLink: "https://freelancer-crm-frontend.vercel.app",
             frontendLink: "https://github.com/dev-suryajith/freelancerCRM-frontend",
             backendLink: "https://github.com/dev-suryajith/freelancerCRM-backend",
         },
@@ -34,7 +35,7 @@ function Projects() {
             desc:
                 "A role-based CRM dashboard with authentication, project management, payments, and admin panels.",
             tech: "MongoDB, Express.js, React, Node.js",
-            liveLink: "https://interviewly-gamma.vercel.app/",
+            liveLink: "https://interviewly-gamma.vercel.app",
             frontendLink: "https://github.com/dev-suryajith/Interviewly_Frontend",
             backendLink: "https://github.com/dev-suryajith/Interviewly_Backend",
         },
@@ -56,7 +57,7 @@ function Projects() {
                         className="group relative overflow-hidden rounded-2xl p-8 bg-white/5 border border-white/10 backdrop-blur-sm transition-all duration-500 ease-out hover:-translate-y-2 hover:bg-white/10 hover:border-white/20 hover:shadow-[0_0_40px_rgba(196,115,124,0.35)]"
                     >
                         {/* Glow Overlay */}
-                        <div className="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br from-[#c4737c]/20 via-transparent to-transparent" />
+                        <div className="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-linear-to-br from-[#c4737c]/20 via-transparent to-transparent" />
 
                         <h3 className="text-2xl font-semibold mb-4">
                             {project.title}
