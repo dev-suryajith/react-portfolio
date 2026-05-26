@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 function Projects() {
-    const [tag, setTag] = useState('')
+    // const [tag, setTag] = useState('')
     const projects = [
         {
             title: "My Notes",
@@ -54,16 +54,6 @@ function Projects() {
             <h2 className="text-4xl font-bold mb-14 text-center tracking-tight">
                 Projects
             </h2>
-            <div className="flex justify-end mb-3">
-                <div className="flex justify-between gap-3">
-                    <button onClick={() => setTag('fullstack')} className="relative flex justify-center items-center gap-3 text-sm font-medium text-[#c4737c] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-[#c4737c] after:transition-all after:duration-300 hover:after:w-full">
-                        Frontend
-                    </button>
-                    <button onClick={() => setTag('fullstack')} className="relative flex justify-center items-center gap-3 text-sm font-medium text-[#c4737c] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-[#c4737c] after:transition-all after:duration-300 hover:after:w-full">
-                        Fullstack
-                    </button>
-                </div>
-            </div>
             <div className="grid gap-10 md:grid-cols-2">
                 {projects.map((project, index) => (
                     <div
