@@ -65,7 +65,7 @@ function Projects() {
                 </div>
             </div>
             <div className="grid gap-10 md:grid-cols-2">
-                {projects.filter((project) => project.tag == tag).map((project, index) => (
+                {projects.map((project, index) => (
                     <div
                         key={index}
                         className="group relative overflow-hidden rounded-2xl p-8 bg-white/5 border border-white/10 backdrop-blur-sm transition-all duration-500 ease-out hover:-translate-y-2 hover:bg-white/10 hover:border-white/20 hover:shadow-[0_0_40px_rgba(196,115,124,0.35)]"
