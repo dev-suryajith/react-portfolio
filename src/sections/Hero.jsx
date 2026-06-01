@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from '../assets/resume/SURYAJITH_S_S_FullStack-Dev.pdf'
 import profileIMG from "../assets/Images/editedIMG.png";
 
 function Hero() {
@@ -33,7 +34,7 @@ function Hero() {
                     </a>
 
                     <a
-                        href="/resume.pdf"
+                        href={Resume}
                         download
                         className=" px-6 py-3 rounded-xl border border-[#c4737c] text-sm sm:text-base font-medium transition-all duration-300 hover:bg-[#c4737c]/10 hover:shadow-[0_0_20px_rgba(196,115,124,0.4)] ">
                         Download Resume
