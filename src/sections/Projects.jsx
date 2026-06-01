@@ -19,7 +19,7 @@ function Projects() {
             tag: "fullstack",
             desc:
                 "A full-stack AI-powered mock interview platform.",
-            tech: "React, Tailwind CSS",
+            tech: "MongoDB, Express.js, React, Node.js, Gemini AI",
             liveLink: "https://ai-interviewer-kohl-sigma.vercel.app",
             frontendLink: "https://github.com/dev-suryajith/ai-interview-coach-frontend",
             backendLink: "https://github.com/dev-suryajith/ai-interview-coach-backend",
