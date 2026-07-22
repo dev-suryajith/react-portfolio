@@ -5,14 +5,14 @@ function Projects() {
     // const [tag, setTag] = useState('')
     const projects = [
         {
-            title: "My Notes",
+            title: "Temple Management System",
             tag: "fullstack",
             desc:
-                "A responsive notes application with clean UI and full CRUD functionality using REST APIs.",
-            tech: "React, JSON Server, CSS",
-            liveLink: "https://my-notes-frontend-sand.vercel.app",
-            frontendLink: "https://github.com/dev-suryajith/MyNotes-Frontend",
-            backendLink: "https://github.com/dev-suryajith/MyNotes-Backend",
+                "A responsive  a full-stack temple management platform using the MERN stack.",
+            tech: "MongoDB, Express.js, React, Node.js",
+            liveLink: "https://temple-muringothappan.vercel.app/",
+            frontendLink: "https://github.com/dev-suryajith/templeOS-frontend",
+            backendLink: "https://github.com/dev-suryajith/templeOS-backend",
         },
         {
             title: "AI Interviw Coach",
@@ -99,8 +99,6 @@ function Projects() {
                                         Backend Code
                                     </a>
                                 )}
-                            </div>
-                            <div className="mt-6 flex flex-wrap gap-6">
                                 {project.liveLink && (
                                     <a
                                         href={project.liveLink}
@@ -112,6 +110,7 @@ function Projects() {
                                     </a>
                                 )}
                             </div>
+
                         </div>
                     </div>
                 )

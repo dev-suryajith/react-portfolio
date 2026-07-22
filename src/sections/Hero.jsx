@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from '../assets/resume/SURYAJITH_S_S_FullStack-Dev.pdf'
+import Resume from '../assets/resume/SURYAJITH_S_S_FullStack-Dev (2).pdf'
 import profileIMG from "../assets/Images/editedIMG.png";
 
 function Hero() {
@@ -12,7 +12,7 @@ function Hero() {
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
                     Hi, I’m{" "}
                     <span className="text-[#c4737c]">
-                        Suryajith&nbsp;S
+                        Suryajith S S
                     </span>
                 </h1>
 
